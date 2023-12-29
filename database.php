@@ -3,7 +3,7 @@
 $hostName = "localhost";
 $dbUser = "root";
 $dbPassword = "";
-$dbName = "login_register";
+$dbName = "project";
 $conn = mysqli_connect($hostName, $dbUser, $dbPassword, $dbName);
 if (!$conn) {
     die("Warning !, error occured");
